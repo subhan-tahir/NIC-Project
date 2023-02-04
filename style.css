@@ -1,0 +1,407 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height:20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2084c7; 
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2084c7; 
+  }
+.main-container{
+   width:100%;
+   height:auto;
+}
+#nav{
+   width:100%;
+   background-color:#0d6cac !important;
+   border-bottom: 1px solid white;
+   
+}
+#nav button{
+   color:#fff;
+   border:0;
+}
+.nav-pick{
+   width:50px;
+}
+
+#navbarNavAltMarkup{
+   background-color: #e8f2f8 !important;
+   position: relative;
+   padding-left:50px;
+   margin-top: 5px;
+}
+#navbarNavAltMarkup, a{
+   border-bottom: 1px solid grey;  
+   color:#308cc5
+}
+
+.navbar-nav a{
+   color:#0d6cac !important;
+   font-weight:600;
+   font-size: 14px;
+}
+.navbar-nav a:hover{
+   color:yellow;
+}
+.top-content{
+   background-color: #0d6cac;
+   padding:20px;
+   padding-bottom:60px;;
+}
+.top-content h4{
+   color:#ffff;
+   text-align: center;
+   font-size: 35px;
+   padding:10px;
+}
+.top-content h2{
+   color:#ffcb00;
+   font-weight: 600;
+   font-size: 6vw;
+   text-align: center;
+   padding: 30px;
+
+}
+.top-content h3{
+   color:#fff;
+   text-align: center;
+   font-size: 25px;
+   font-weight: normal;
+}
+.top-content p{
+   color:#fff;
+   text-align: center;
+   font-size: 16px;
+   font-weight: normal;
+   margin-top: 30px;
+
+}
+.timing-face-content{
+   margin-top: 30px;
+   margin-left: 20px;
+}
+.kaaba {
+   display: flex;
+   align-items: center;
+   width:190px;
+ }
+ .kaaba:before,
+ .kaaba:after {
+   flex: 1;
+   content: '';
+   height: 2.3px;
+   width:1px;
+   background: #0d6cac;
+   margin:10px;
+ }
+.kaaba i{
+   color:#0d6cac;
+   width:30px;
+   padding: 10px;
+}
+.timing-face-content{
+   display: flex;
+   flex-direction: row;
+  
+ }
+.prayer-timings-box{
+   width:35%;
+   height:650px;
+   border:3px solid #fecb03;
+   border-top-left-radius: 35%;
+   border-top-right-radius: 35%;
+   padding: 10px;
+
+}
+
+.prayer-timings-box h2{
+   color: #0d6cac;
+   font-weight: 400;
+   font-size: 24px;
+   margin-top: 20px;
+}
+.prayer-timings-box h3{
+   color:#0d6cb0;
+   font-weight: 400;
+   font-size: 24px;
+   text-align: center;
+   
+}
+.prayer-timings-box h5{
+float: right;
+color:#0d6cac;
+font-weight: 400 !important;
+padding: 5px;
+position: relative;
+bottom:40px;
+}
+.prayer-timings-box h4{
+   color:#0d6cac;
+   font-weight: 400 !important;
+   padding:5px;
+}
+.facebook-box{
+width: 58%;
+
+}
+.facebook-box h2{
+   color:#0d6cac;
+   text-align: center;
+}
+.facebook-box img{
+   width:370px;
+   height:250px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin-bottom: 10px;
+}
+
+
+
+.mission-content{
+   background-color: #0d6cac;
+   display: flex;
+   flex-direction: row;
+   padding: 50px;
+   height: auto;
+   margin-top: 30px;
+}
+
+.our-mission h2{
+color:#ffff;
+font-weight: 800;
+text-align: center;
+margin-top: 10px;
+font-size: 28px;
+padding: 10px;
+
+}
+.our-mission p{
+   color:#fff;
+   text-align:left;
+   margin-right: 30px;
+}
+.our-mission button{
+   border:0;
+   color:#23798a;
+   background-color: #fecb03;
+   padding: 15px ;
+   border:2px solid #fecb03;
+   font-weight: bold;
+   font-size: 13px;
+   transition: 1s;
+   border-radius: 40px;
+   width:190px;
+   cursor: pointer;
+   text-align: center;
+}
+.our-mission button:hover{
+   background-color: #0d6cac;
+   color:#fecb03;
+
+}
+.Eid-box img{
+   width:300px;
+}
+.Eid-box h2{
+   color:#fff;
+   font-size: 23px;
+   text-align: center;
+   font-weight: bold;
+   padding: 10px;
+}
+
+.quranic-box{
+   padding:20px
+}
+.quranic-box h2{
+   color:#0d6cac;
+   font-weight: bold;
+   margin-top: 10px;
+   padding: 5px;
+}
+.quranic-box p{
+   color:#0d6cac;
+   text-align: center;
+   margin-top: 10px;
+   padding: 10px;
+}
+.quranic-box button{
+   border:0;
+   color:#23798a;
+   background-color: #fecb03;
+   padding: 15px ;
+   border:2px solid #fecb03;
+   font-weight: bold;
+   font-size: 13px;
+   transition: 1s;
+   border-radius: 40px;
+   width:190px;
+   cursor: pointer;
+   text-align: center;
+}
+.quranic-box button:hover{
+   background-color: #fff;
+   color:#0d6cac;
+
+}
+.gallrey-content{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center !important;
+}
+.gallrey-content img{
+   width:205px;
+   border-radius: 7px;
+   padding:3px;
+   cursor: pointer;
+}
+.map-content h1{
+   text-align: center;
+   color:white;
+   font-size: 30px;
+   font-weight: bold;
+}
+iframe{
+   margin-top: 30px;
+}
+.map-content{
+   background-color: #0d6cac;
+   padding: 20px;
+   margin-top: 40px;
+}
+
+.footer{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 30px;
+   background-color: #e8f2f8;
+   
+}
+.foot-box{
+   width:30%
+}
+.foot-box h4 ,p, i{
+   color:#0d6cac;
+   line-height: 35px;
+   font-size: 20px;
+   margin-left: 10px;
+}
+.foot-box i{
+   font-size: 35px;
+   margin-left: 10px;
+}
+.foot-box button{
+   color:white;
+   font-weight: bold;
+   font-size: 20px;
+   border:0;
+   padding:5px;
+   transition: 1s;
+   border-radius: 40px;
+   background-color: #0d6cac;
+   width:124px;
+}
+
+.foot-box button:hover{
+background-color: #fecb03;
+color: #0d6cac;
+cursor: pointer;
+}
+.foot-box i{
+   cursor: pointer;
+}
+.foot-box i:hover{
+color:#184868
+}
+.foot-box a:hover{
+   color:#fecb03;
+}
+
+.btn {
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   z-index: 99;
+   font-size: 15px;
+   border: none;
+   outline: none;
+   background-color: #0d6cac;
+   color: white;
+   text-decoration: none;
+   cursor: pointer;
+   padding: 5px;
+   
+   transition: 2s ease;
+   }
+   
+
+
+@media only screen and (max-width: 700px) {
+   .prayer-timings-box{
+      width: 100%;
+   }
+   .timing-face-content{
+      flex-direction: column;
+      
+    }
+    .facebook-box{
+      width: 100%;
+      
+    }
+    .facebook-box h2{
+      text-align: center;
+    }
+    .facebook-box img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+    .mission-content{
+      height: auto;
+    }
+    .our-mission{
+    position: relative;
+    right:20px;
+   
+    }
+    .our-mission p{
+      width:230px
+    }
+    .Eid-box{
+      position: relative;
+      right: 60px;
+    }
+    .Eid-box img{
+      width:180px; 
+    }
+    .gallrey-content img{
+      width:240px
+    }
+
+    .foot-box{
+
+    }
+
+}
