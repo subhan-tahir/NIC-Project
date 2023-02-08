@@ -112,11 +112,12 @@ body{
     line-height: 28px;
 }
 
-.left img,iframe{
-    width:400px;
+.left img{
+    width:100%;
     height:auto;
     
 } 
+
 .left{
         width:50%;
     }

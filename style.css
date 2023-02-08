@@ -170,6 +170,9 @@ bottom:40px;
    text-align: left;
 }
 .facebook-box{
+   width:50%;
+}
+.facebook-box{
 padding:30px;
 margin-left: 40px;
 }
@@ -178,8 +181,8 @@ margin-left: 40px;
    text-align: center;
 }
 .facebook-box img{
-   width:370px;
-   height:250px;
+   width:100%;
+   height:auto;
   
   /* max-width: 600px;
    max-height: 340px;*/
@@ -452,5 +455,8 @@ color:#184868
   
    .foot-box{
      width: 100%;
+   }
+   .facebook-box{
+      width:100%;
    }
 }
