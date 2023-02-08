@@ -2,8 +2,6 @@ function validateForm(){
 var user = document.getElementById("inp");
 var email = document.getElementById("mail");
 var validEmail =   /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-var atposition=email.indexOf("@");  
-var dotposition=email.lastIndexOf(".");  
 var textarea = document.getElementById("textArea");
 
  if(user.value === ""){

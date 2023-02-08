@@ -1,7 +1,7 @@
 body{
-    margin: 0;
+    margin: 0px auto;
     padding: 0;
-
+   
 }
 /* width */
 ::-webkit-scrollbar {
@@ -32,35 +32,36 @@ body{
    margin: auto;
 }
 #nav{
-   width:100%;
+   /*width:100%;*/
    background-color:#0d6cac !important;
    border-bottom: 1px solid white;
+   padding:20px
 }
 #nav button{
    color:#fff;
    border:0;
 }
 .nav-pick{
-   width:50px;
+   width:70px;
 }
+
 #navbarNavAltMarkup{
-    background-color: #e8f2f8 !important;
-    position: relative;
-    padding-left:50px;
-    margin-top: 5px;
- }
- #navbarNavAltMarkup, a{
-    border-bottom: 1px solid grey;  
-    color:#308cc5
- }
- .navbar-nav a{
-    color:#0d6cac !important;
-    font-weight:600;
-    font-size: 14px;
- }
- .navbar-nav a:hover{
-    color:yellow;
- }
+   /*background-color: #e8f2f8 !important;*/
+   position: relative;
+   padding-left:50px;
+   margin-top: 5px;
+   
+}
+
+
+.navbar-nav a{
+   color:#ffff !important;
+   font-weight:600;
+   font-size: 16px;
+}
+span a:hover{
+   color:#ffcb00 !important;
+}
  .top-content{
      background-color: #0d6cac;
      padding:20px;
@@ -80,8 +81,9 @@ body{
     color:#fff;
     font-weight: 600;
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
+    line-height: 24px;
   }  
   .Sec-div{
     margin-top: 40px;
@@ -125,12 +127,14 @@ body{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   margin-top: 20px;
+   width:100%;
    background-color: #e8f2f8;
    
 }
 .foot-box{
-   width:30%
+   width:30%;
+   margin-top:30px;
+   
 }
 .foot-box h4 ,p, i{
    color:#0d6cac;
@@ -190,4 +194,31 @@ h2::selection{
    padding: 5px;
    
    transition: 2s ease;
+   }
+
+   @media only screen and (max-width: 900px) {
+      .foot-box{
+         width: 100%;
+        
+      }
+     
+      #navbarNavAltMarkup{
+         background-color: #e8f2f8 !important;
+         
+      }
+      .navbar-nav a{
+   
+         color:#308cc5 !important;
+         transition:1s;  
+         font-weight:600;
+         font-size: 16px;
+      }
+      
+      span a{
+         text-align: left;
+         border-bottom: 1px solid  rgb(206, 126, 126);
+      }
+      span a:hover{
+         color:#ffcb00 !important;
+      }
    }
