@@ -127,7 +127,7 @@ span a:hover{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   width:100%;
+  
    background-color: #e8f2f8;
    
 }
@@ -145,6 +145,10 @@ span a:hover{
 .foot-box i{
    font-size: 35px;
    margin-left: 10px;
+}
+h4:hover{
+   color:#184868;
+   cursor:pointer;
 }
 .foot-box button{
    color:white;
@@ -199,7 +203,7 @@ h2::selection{
    @media only screen and (max-width: 900px) {
       .foot-box{
          width: 100%;
-        
+         text-align: center;
       }
      
       #navbarNavAltMarkup{

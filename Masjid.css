@@ -1,5 +1,5 @@
 body{
-
+    padding:0;
     margin: 0px auto;
     text-align: center;
 
@@ -112,7 +112,7 @@ body{
     line-height: 28px;
 }
 
-.left img{
+.left img,video{
     width:100%;
     height:auto;
     
@@ -168,6 +168,7 @@ width:120px;
  .foot-box{
     width:30%;
     margin-top:20px;
+    padding-bottom: 30px;
  }
  .foot-box h4 ,p, i{
     color:#0d6cac;
@@ -198,6 +199,10 @@ width:120px;
  }
  .foot-box i{
     cursor: pointer;
+ }
+ h4:hover{
+    color:#184868;
+    cursor:pointer;
  }
  .foot-box i:hover{
  color:#184868
@@ -230,7 +235,7 @@ width:120px;
     
     .left{
         width: 100%;
-        
+        height:auto;
     }
     .left-1 img{
       width: 100%; 
@@ -247,6 +252,7 @@ width:120px;
     }
     .foot-box{
         width:100%;
+        
     }
     #navbarNavAltMarkup{
         background-color: #e8f2f8 !important;

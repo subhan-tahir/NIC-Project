@@ -129,7 +129,7 @@ span a:hover{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-
+      
       background-color: #e8f2f8;
       
    }
@@ -167,6 +167,10 @@ span a:hover{
    }
    .foot-box i{
       cursor: pointer;
+   }
+   h4:hover{
+      color:#184868;
+      cursor:pointer;
    }
    .foot-box i:hover{
    color:#184868
@@ -220,6 +224,6 @@ span a:hover{
       }
       .foot-box{
          width:100%;
-      
+       
       }
    }

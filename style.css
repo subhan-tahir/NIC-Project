@@ -340,6 +340,10 @@ iframe{
    font-size: 35px;
    margin-left: 10px;
 }
+h4:hover{
+   color:#184868;
+   cursor:pointer;
+}
 .foot-box button{
    color:white;
    font-weight: bold;
@@ -455,6 +459,7 @@ color:#184868
   
    .foot-box{
      width: 100%;
+    
    }
    .facebook-box{
       width:100%;

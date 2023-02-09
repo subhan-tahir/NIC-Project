@@ -1,6 +1,6 @@
 body{
    
-    
+    padding:0;
     margin: 0px auto;
     text-align: center;
 }
@@ -164,6 +164,10 @@ cursor: pointer;
 .foot-box i{
    cursor: pointer;
 }
+h4:hover{
+   color:#184868;
+   cursor:pointer;
+}
 .foot-box i:hover{
 color:#184868
 }
@@ -186,7 +190,7 @@ color:#184868
    padding: 5px;
    transition: 2s ease;
    }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
     .right{
         width: 100%;
 
@@ -219,6 +223,7 @@ color:#184868
       color:#ffcb00 !important;
    }
    .foot-box{
-     width: 100%;
+      width:100%;
+      text-align: center;
    } 
 }
