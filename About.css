@@ -79,17 +79,11 @@ span a:hover{
 }
 
 .wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: px;
+
    margin-top: 30px;
-   width:100%;
-   height: auto;
+
 }
 .right{
-    
-    width:50%;
    /*margin-top: 30px;*/
     padding:20px;
 }
@@ -107,15 +101,7 @@ span a:hover{
       line-height: 27px;
       text-align: left;
 }
-.left{
-   width:50%;
-}
-.left img{
-   width:100%;
-   height:auto;
-    /*margin-top: 80px;*/
-    display: inline;
-}
+
 
 .left h3{
     color:#fff;

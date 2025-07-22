@@ -1,0 +1,33 @@
+:root {
+   --primary-color: #2084c7;
+   --secondary-color: #fecb03;
+   --text-color: #0d6cac;
+   --text-color-secondary: #fff;
+   --text-color-tertiary: #000;
+   --text-color-quaternary: #0d6cac;
+}p{
+    margin-left: 0;
+}
+.sidebar {
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    color: #fff;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Sidebar hidden (initial state) */
+.sidebar-close {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+/* Sidebar visible */
+.sidebar-open {
+    transform: translateX(0);
+    opacity: 1;
+}

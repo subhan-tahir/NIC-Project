@@ -1,0 +1,33 @@
+#nav {
+   /*width:100%;*/
+   background-color: hsl(204, 86%, 36%) !important;
+   border-bottom: 1px solid white;
+   padding: 20px
+}
+
+#nav button {
+   color: #fff;
+   border: 0;
+}
+
+.nav-pick {
+   width: 70px;
+   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+#navbarNavAltMarkup {
+   /*background-color: #e8f2f8 !important;*/
+   position: relative;
+   padding-left: 50px;
+   margin-top: 5px;
+
+}
+
+.navbar{
+   border-bottom: 4px solid var(--primary-color);
+}
+.navbar-nav a {
+   color: var(--primary-color) !important;
+   font-weight: 600;
+   font-size: 16px;
+}
